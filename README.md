@@ -7,6 +7,7 @@ This web app: **Allows users to create, edit, delete, and update their own posts
 Time spent: **6** hours spent in total
 
 ## Required Features
+https://cool-khapse-e09033.netlify.app/
 
 The following **required** functionality is completed:
 
@@ -72,7 +73,7 @@ Here's a walkthrough of implemented user stories:
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
