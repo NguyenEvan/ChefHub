@@ -14,7 +14,7 @@ const ViewPost = () => {
         .from('ChefHub')
         .select()
         .eq('id', id)
-        .single(); // grab one post
+        .single(); 
 
       setPost(data);
     };
@@ -78,7 +78,6 @@ const ViewPost = () => {
     <div className="post-wrapper">
       <div className="post-card">
   
-        {/* Post content box with border */}
         <div className="post-content-box">
           <p className="timestamp">Posted {timeSince(post.created_at)}</p>
           <h2 className="post-title">{post.title}</h2>
@@ -96,7 +95,6 @@ const ViewPost = () => {
             <span>{post.upvotes} upvotes</span>
         </div>
 
-        {/* Comments section */}
         <div className="comments-section">
           {post.comments && post.comments.length > 0 ? (
             post.comments.map((comment, index) => (
@@ -117,7 +115,6 @@ const ViewPost = () => {
 
         </div>
   
-        {/* Edit & delete buttons */}
         <div className="post-actions">
           <Link to={`/edit/${post.id}`}>
             <button className="icon-button">✏️</button>

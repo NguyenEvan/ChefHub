@@ -16,7 +16,7 @@ const App = () => {
       element: <ReadPosts data={posts} />
     },
     {
-      path: "/new", // matches your old route
+      path: "/new", 
       element: <CreatePost />
     },
     {

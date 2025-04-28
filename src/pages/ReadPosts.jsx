@@ -7,7 +7,7 @@ import "./ReadPosts.css"
 const ReadPosts = (props) => {
 
     const [posts, setPosts] = useState([]);
-    const [sortOption, setSortOption] = useState('recent'); // default to most recent
+    const [sortOption, setSortOption] = useState('recent'); 
     const [filteredResults, setFilteredResults] = useState([]);
     const [searchInput, setSearchInput] = useState("");
 
@@ -33,7 +33,6 @@ const ReadPosts = (props) => {
                 .select()
                 .order(sortField, { ascending: false });
 
-            // set state of posts
             setPosts(data);
             searchPosts(searchInput);
         }
