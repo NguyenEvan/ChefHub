@@ -4,8 +4,6 @@ Submitted by: **Evan Nguyen**
 
 This web app: **Allows users to create, edit, delete, and update their own posts on a forum made for chefs and home cooks to talk about food-related topics. Users can comment and upvote other user's posts and filter to find posts they want**
 
-Time spent: **6** hours spent in total
-
 ## Required Features
 https://cool-khapse-e09033.netlify.app/
 
